@@ -6,6 +6,7 @@
             <a href="">
                 <span>a+</span> Studio
             </a>
+            
         </div>
 
         <nav :class="$style.navbar">
