@@ -39,11 +39,13 @@
 
 .logo {
     a {
+        text-decoration: none;
         font-family: 'Averta Demo PE Cutted Demo';
         font-style: normal;
         font-weight: 400;
         font-size: 27px;
         line-height: 20px;
+        color: #000000;
     }
     span {
         font-family: 'Proxima Nova';
