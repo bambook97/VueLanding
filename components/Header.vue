@@ -55,7 +55,6 @@
         line-height: 33px;
     }
 }
-
 .navbar {
     ul {
         display: flex;
