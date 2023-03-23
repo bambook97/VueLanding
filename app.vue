@@ -4,5 +4,6 @@
     <DigitalProduct/>
     <Client/>
     <Help/>
+    <Video/>
   </div>
 </template>
