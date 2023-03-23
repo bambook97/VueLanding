@@ -5,7 +5,7 @@
     <div :class="$style.text_block">
 
         <div :class="$style.title">Our Client</div>
-        <div :class="$style.descr">Several selected clients, who already believe in our service.</div>
+        <div :class="$style.descr">Several selected clients, who already believe <br> in our service.</div>
 
     </div>
 
@@ -47,6 +47,7 @@
 
 .container {
     min-height: 170px;
+    min-width: 1200px;
     padding-top: 40px;
     margin: 40px 120px 90px 120px;
     display: flex;
@@ -82,8 +83,9 @@
 
 .link_block {
     margin-top: 40px;
-    margin-left: 60px;
+    margin-left: 64px;
     ul{
+        margin-top: 22px;
         display: flex;
         flex-direction: row;
         align-items: center;  

@@ -3,5 +3,6 @@
     <Header/>
     <DigitalProduct/>
     <Client/>
+    <Help/>
   </div>
 </template>

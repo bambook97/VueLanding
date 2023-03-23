@@ -39,6 +39,8 @@
         color: #000000;
     }
     .descr {
+        font-family: 'Averta Demo PE Cutted Demo';
+        font-weight: 400;
         margin-top: 40px;
         font-size: 16px;
         line-height: 160%;
@@ -54,6 +56,7 @@
         font-size: 20px;
         line-height: 25px;
         color: #FFFFFF;
+        cursor: pointer;
     }
 }
 
