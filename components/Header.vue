@@ -54,20 +54,19 @@
     }
 }
 
-.navbar ul {
-    display: flex;
-    flex-direction: row;
-}
-
-.navbar li {
-    list-style-type: none;
-    margin-left: 60px;
-    :first-child {
-        margin-left: 0;
+.navbar {
+    ul {
+        display: flex;
+        flex-direction: row;
     }
-}
-
-a {
+    li {
+        list-style-type: none;
+        margin-left: 60px;
+        :first-child {
+            margin-left: 0;
+        }
+    } 
+    a {
     text-decoration: none;
     font-family: 'Averta Demo PE Cutted Demo';
     font-style: normal;
@@ -75,6 +74,7 @@ a {
     font-size: 16px;
     line-height: 20px;
     color: #000000;
+    }
 }
 
 </style>
