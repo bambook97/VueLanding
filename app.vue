@@ -1,6 +1,7 @@
 <template>
-  <div>
+  <div class="wrapper">
     <Header/>
     <DigitalProduct/>
+    <Client/>
   </div>
 </template>

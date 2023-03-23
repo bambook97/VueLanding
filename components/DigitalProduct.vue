@@ -29,9 +29,9 @@
 
 .text_block {
     width: 600px;
-    font-family: 'Averta Demo PE Cutted Demo';
+    font-family: 'Proxima Nova';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     .title {
         margin-top: 123px;
         font-size: 40px;
@@ -63,13 +63,14 @@
     height: 154px;
     left: 68px;
     top: 469px;
-    background: url(../img/DotOrnament.svg);
+    background: url(../img/Product/DotOrnament.svg);
     z-index: -1;
 }              
 
 .img_block {
     margin-left: 95px;
     width: 750px;
+    min-height: 650px;
     .blueEllipse {
         position: absolute;
         width: 129px;
@@ -87,7 +88,7 @@
         height: 512px;
         left: 686px;
         top: 116px;
-        background: url(../img/conf.svg);
+        background: url(../img/Product/conf.svg);
         border-radius: 0px 0px 0px 200px;
     }
     .orangeRectangle{

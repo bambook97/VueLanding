@@ -57,6 +57,7 @@
     }
 }
 .navbar {
+
     ul {
         display: flex;
         flex-direction: row;
