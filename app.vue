@@ -6,5 +6,6 @@
     <Help/>
     <Video/>
     <HappyClient/>
+    <Newsletter/>
   </div>
 </template>
