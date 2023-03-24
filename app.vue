@@ -5,5 +5,6 @@
     <Client/>
     <Help/>
     <Video/>
+    <HappyClient/>
   </div>
 </template>

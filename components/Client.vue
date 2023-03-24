@@ -46,8 +46,6 @@
 <style lang="scss" module>
 
 .container {
-    min-height: 170px;
-    min-width: 1200px;
     padding-top: 40px;
     margin: 40px 120px 90px 120px;
     display: flex;

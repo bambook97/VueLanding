@@ -74,7 +74,7 @@
 
 <style lang="scss" module>
 .container {
-    margin-left: 90px;
+    margin-left: 120px;
     min-width: 1350px;
     display: flex;
     flex-direction: row;
