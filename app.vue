@@ -7,5 +7,6 @@
     <Video/>
     <HappyClient/>
     <Newsletter/>
+    <Footer/>
   </div>
 </template>
