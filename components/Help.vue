@@ -3,9 +3,9 @@
 
         <div :class="$style.text_block">
 
-            <div :class="$style.title">How can we help your Business ?</div>
+            <div :class="$style.title">How can we help <br> your Business ?</div>
 
-            <div :class="$style.descr">We build readymade websites, mobile applications, and elaborate online business
+            <div :class="$style.descr">We build readymade websites, mobile applications, <br> and elaborate online business
                 services.</div>
         </div>
 
@@ -14,7 +14,7 @@
         </div>
 
         <div :class="$style.img_block">
-            <ul class="$style.firstColumn">
+            <ul :class="$style.firstColumn">
                 <li>
                     <div :class="$style.help_block">
                         <div :class="[$style.img_container, $style.blue_icon]">
@@ -58,7 +58,7 @@
         </div>
 
         <div :class="$style.blue_ellipse">
-        <img src="../img/help/BlueRect.svg" alt="">
+        
         </div>
         
         <div :class="$style.pink_ring">
@@ -85,6 +85,7 @@
 .text_block {
     display: flex;
     flex-direction: column;
+    margin-left: 44px;
     .title {
         font-family: 'Proxima Nova';
         font-style: normal;
@@ -107,19 +108,22 @@
     }
 }
 .orange_ellipse {
-        position: absolute;
-        width: 178px;
-        height: 178px;
-        left: 50px;
-        top: 1385px;
-        z-index: -1;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    position: absolute;
+    width: 178px;
+    height: 178px;
+    z-index: -1;
 }
 
 .blue_ellipse {
     position: absolute;
-    left: 393px;
-    top: 1200px;
+    margin-left: 537px;
     z-index: -1;
+    width: 1047px;
+    height: 619px;
+    background: #F4F9FF;
+    border-radius: 150px 0px 0px 0px;
 }
 
 .pink_ring {
@@ -131,8 +135,8 @@
 
 .ornament {
     position: absolute;
-    left: 125px;
-    top: 1700px;
+    margin-left: 200px;
+    margin-top: 549px;
     z-index: -2;
 }
 
@@ -150,7 +154,7 @@
     }
 
     .secondColumn {
-        margin-bottom: 70px;
+        margin-bottom: 100px;
     }
 
     ul {

@@ -26,6 +26,7 @@
        flex-wrap: wrap;
        padding-bottom: 50px;
        min-height: 387px;
+       min-width: 1280px; 
     }
 
     .ornament {
@@ -38,6 +39,7 @@
     }  
 
     .wrapper {
+        margin: 38px;
         align-self: center;
         display: flex;
         justify-content: center;
@@ -102,8 +104,7 @@
     }
     .yellow_block {
         position: absolute;
-        left: 80px;
-        top: 3582px;
+        margin-top: 196px;
         width: 178px;
         height: 178px;
         background: #FFF5DB;

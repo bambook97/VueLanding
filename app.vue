@@ -1,6 +1,6 @@
 <template>
   <div class="wrapper">
-    <Header/>
+    <Header/>  
     <DigitalProduct/>
     <Client/>
     <Help/>
@@ -9,4 +9,6 @@
     <Newsletter/>
     <Footer/>
   </div>
+
+
 </template>

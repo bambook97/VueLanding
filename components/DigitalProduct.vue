@@ -21,13 +21,17 @@
 <style lang="scss" module>
 
 .container {
+    min-width: 1380px;
+    min-height: 610px;
     margin-top: 40px;
     margin-left: 120px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .text_block {
+    margin-left: 180px;
     width: 600px;
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -61,11 +65,11 @@
 }
 
 .dotOrnament {
+    margin-top: 350px;
+    margin-left: 38px;
     position: absolute;
     width: 404px;
     height: 154px;
-    left: 68px;
-    top: 469px;
     background: url(../img/Product/DotOrnament.svg);
     z-index: -1;
 }              
@@ -74,12 +78,12 @@
     margin-left: 95px;
     width: 750px;
     min-height: 650px;
+    min-width: 820px;
     .blueEllipse {
+        margin-left: 60px;
         position: absolute;
         width: 129px;
         height: 129px;
-        left: 623px;
-        top: 115px;
         z-index: -1;
         background: #DAE9FF;
         border-radius: 50%;
@@ -89,17 +93,19 @@
         position: absolute;
         width: 754px;
         height: 512px;
-        left: 686px;
-        top: 116px;
-        background: url(../img/Product/conf.svg);
+        margin-left: 120px;
+        background: url(../img/Product/Conf.png) center (center/cover) no-repeat;
         border-radius: 0px 0px 0px 200px;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        overflow-x: hidden;
     }
     .orangeRectangle{
         position: absolute;
+        margin-top: 430px;
+        margin-left: 450px;
         width: 178px;
         height: 178px;
-        left: 1142px;
-        top: 546px;
         background: #FFF5DB;
         border-radius: 0px 0px 100px 0px; 
         z-index: -1;

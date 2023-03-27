@@ -5,7 +5,7 @@
     <div :class="$style.text_block">
 
         <div :class="$style.title">Our Client</div>
-        <div :class="$style.descr">Several selected clients, who already believe <br> in our service.</div>
+        <div :class="$style.descr">Several selected clients, who already <br> believe  in our service.</div>
 
     </div>
 
@@ -56,6 +56,7 @@
 .text_block {
     display: flex;
     flex-direction: column;
+    margin-right: 87px;
     
     
     .title{
@@ -81,7 +82,7 @@
 
 .link_block {
     margin-top: 40px;
-    margin-left: 64px;
+    margin-left: 60px;
     ul{
         margin-top: 22px;
         display: flex;

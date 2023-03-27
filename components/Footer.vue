@@ -71,7 +71,7 @@ footer {
     padding: 110px 107px 64px 108px;
 
     .pointer_line {
-        border: 1px solid #E4E4E4;;
+        border: 1px solid #E4E4E4;
     }
     .container {
         margin-top: 60px;

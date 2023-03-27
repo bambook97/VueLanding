@@ -47,6 +47,7 @@
         font-size: 27px;
         line-height: 20px;
         color: #000000;
+        margin-left: 39px;
     }
     span {
         font-family: 'Proxima Nova';
@@ -57,6 +58,7 @@
     }
 }
 .navbar {
+    margin-left: 435px;
 
     ul {
         display: flex;
