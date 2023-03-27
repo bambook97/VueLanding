@@ -21,17 +21,17 @@
 <style lang="scss" module>
 
 .container {
-    min-width: 1380px;
+    width: 1345px;
     min-height: 610px;
     margin-top: 40px;
     margin-left: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow: hidden;
 }
 
 .text_block {
-    margin-left: 180px;
     width: 600px;
     font-family: 'Proxima Nova';
     font-style: normal;
@@ -75,12 +75,11 @@
 }              
 
 .img_block {
-    margin-left: 95px;
     width: 750px;
     min-height: 650px;
     min-width: 820px;
     .blueEllipse {
-        margin-left: 60px;
+        margin-left: 105px;
         position: absolute;
         width: 129px;
         height: 129px;
@@ -93,7 +92,7 @@
         position: absolute;
         width: 754px;
         height: 512px;
-        margin-left: 120px;
+        margin-left: 171px;
         background: url(../img/Product/Conf.png) center (center/cover) no-repeat;
         border-radius: 0px 0px 0px 200px;
         border: 1px solid #000000;
@@ -103,7 +102,7 @@
     .orangeRectangle{
         position: absolute;
         margin-top: 430px;
-        margin-left: 450px;
+        margin-left: 540px;
         width: 178px;
         height: 178px;
         background: #FFF5DB;
