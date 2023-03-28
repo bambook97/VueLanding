@@ -119,7 +119,7 @@
 
 .blue_ellipse {
     position: absolute;
-    margin-left: 537px;
+    margin-left: 450px;
     z-index: -1;
     width: 1047px;
     height: 619px;
@@ -129,8 +129,8 @@
 
 .pink_ring {
     position: absolute;
-    left: 1177px;
-    top: 1780px;
+    margin-top: 642px;
+    margin-left: 1125px;
     z-index: -2;
 }
 

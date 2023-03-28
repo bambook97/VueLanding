@@ -75,14 +75,14 @@ button {
 }
 .blue_ellipse {
     position: absolute;
-    left: 750px;
-    top: 2225px;
+    margin-left: 640px;
     z-index: -2;
+    margin-top: 55px;
     }
 .orange_ellipse {
+    margin-top: 353px;
     position: absolute;
-    left: 582px;
-    top: 2500px;
+    margin-left: 475px;
     z-index: -2;
 }
 </style>

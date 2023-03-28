@@ -161,10 +161,8 @@
         }
         .yellow_ellipse {
             position: absolute;
-            left: 1130px;
-            top: 3065px;
-            transform: translateY(-50%);
-            transform: translateX(-50%);
+            margin-left: 940px;
+            margin-top: 205px;
             width: 184px;
             height: 184px;
             background: #FFF5DB;
